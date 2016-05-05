@@ -16,7 +16,7 @@ npm install nef-fs --save
 
 ```js
 const nef = require('nef');
-const nefMongo = require('nef-fs');
+const nefFs = require('nef-fs');
 const db = nef(nefFs('db'));
 
 db.money.set('phil', 10);
@@ -54,7 +54,7 @@ In `db` folder:
 
 ## Docs
 
-### nefFs(databaseDirectory)
+### nefFs(directory)
 
 Loads in data and save function from a folder that contains JSON files.
 

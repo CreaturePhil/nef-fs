@@ -48,7 +48,7 @@ function nefFs(name) {
     }
   });
 
-  return objects
+  return objects;
 }
 
 module.exports = nefFs;
