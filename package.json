@@ -1,0 +1,29 @@
+{
+  "name": "nef-fs",
+  "version": "1.0.0",
+  "description": "File system plugin for nef",
+  "repository": "CreaturePhil/nef-fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && tape test/index.js"
+  },
+  "keywords": [
+    "file system",
+    "files",
+    "nef",
+    "json"
+  ],
+  "author": "Philip La <birkal@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graceful-fs": "^4.1.4",
+    "json-parse-helpfulerror": "^1.0.3",
+    "steno": "^0.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "nef": "^1.0.1",
+    "rimraf": "^2.5.2",
+    "tape": "^4.5.1"
+  }
+}
